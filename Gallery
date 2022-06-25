@@ -1,0 +1,35 @@
+.FrontPageImg{
+	text-align:center;
+	margin:auto;
+}
+
+
+
+.h1{
+    
+    
+    text-align:center;
+    
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+     
+footer{
+    text-align: center;
+    padding-top:auto;
+    font-size: 80%;
+    font-family: Arial;
+}
+.welcome, .header {
+	
+	text-align: center;
+	padding-left: 100px;
+	padding-right: 100px;
+	
+	
+}
+h2{
+	text-align:left;
+	padding-top: 30px;
+}
+
