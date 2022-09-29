@@ -1,0 +1,28 @@
+.link{
+    text-align: center;
+    
+
+}
+.images{
+    display: flex;
+    flex-direction: column;
+    padding-top:50px;
+    align-items: center;
+}
+img{
+    display: inline;
+    margin: 5px;
+    border: 4px solid black;
+}
+h2{
+    width: 100px;
+    height: auto;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin:auto;
+    border: 5px solid brown;
+
+}
