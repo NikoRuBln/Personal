@@ -1,6 +1,10 @@
+
+
+/*Global*/
 .body{
     display:flex;
-    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
     gap:10px;
 }
 a{
@@ -12,30 +16,38 @@ a{
 }
 .ImagesFP{
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: column;
     text-align: center;
     padding-top:50px;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 25px;
+    margin: 25px;
+    
 }
 
+.list{
+    text-align: center;
+}
 .vertical{
     display: flex;
-    max-width:336.99px;
-    height: 500px;
+    margin-left:auto;
+    margin-right:auto;
+    height: 700px;
     width: auto;
+    max-width:525px;
     gap: 15px;
-    margin: 10px;
-    justify-content:space-around;
+    border: 5px solid black;
     
     }
 .horizontal{
     display:flex;
-    max-height:346.38px;
+    margin-left:auto;
+    margin-right:auto;
     height: auto;
-    width: 500px;
+    width: 700px;
     gap: 15px;
-    justify-content:space-around;
-    margin: 10px;
+    border: 5px solid black;
+    
     }
 h2{
     text-align: center;
@@ -43,14 +55,13 @@ h2{
     color: white;
 
 }
+
 ul {
     display: flex;
     gap: 15px;
     list-style: none;
-    justify-content: center;
-    margin: 0;
-
-
+    display:table-row;
+    text-align: center;
 }
 .title{
     text-align: center;
@@ -91,4 +102,10 @@ ul {
 .AboutTitle{
 
 }
+/*About Page CSS*/
 
+.abtImg{
+    height: auto;
+    width: 700px;
+
+}
